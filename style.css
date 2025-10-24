@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+a:hover {
+  color: #0056b3;
+}
+
+
+header {
+  background: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+
+#About img {
+  display: block;
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  border: 4px solid #0077b6;       
+  border-radius: 50%;              
+  padding: 5px;                   
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+#Project ul {
+  padding-left: 20px;
+}
+
+#Project ul li h4 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: #004085;
+}
+
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button.button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-form button.button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+
+#back-to-top {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#back-to-top:hover {
+  background: #5a6268;
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  section {
+    padding: 40px 10px;
+  }
+}
+
+
+
+
+
