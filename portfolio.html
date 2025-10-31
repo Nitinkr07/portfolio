@@ -10,16 +10,17 @@
 <body>
     <header id="header">
         <h1 >My Portfolio</h1>
-        <nav  class="nav">
-            <ul>
-              <li> <a href="#About"  class="nav" >About</a></li>
-               <li><a href="#Project"  class="nav">Project </a></li>
-               <li> <a href="#skill" class="nav" >Skill</a></li>
-               <li> <a href="#Contact"  class="nav">Contact</a></li>
-            </ul>
-        </nav>
-
+        <nav class="nav">
+  <ul>
+    <li><a href="#About" class="nav"><span>About</span></a></li>
+    <li><a href="#Project" class="nav"><span>Project</span></a></li>
+    <li><a href="#Skill" class="nav"><span>Skill</span></a></li>
+    <li><a href="#Contact" class="nav"><span>Contact</span></a></li>
+  </ul>
+</nav>
     </header>
+
+
     <main id="main content">
         <section id="About">
             <h2>About Me:</h2><br>
@@ -28,27 +29,12 @@
             ><br>
           
         
-            <p>Hello! My name is Nitin kumar. I am learning web development student.This is my personal portfolio website</p><br>
+            <p>Hello! My name is Nitin kumar. I am learning web development.This is my personal portfolio website</p><br>
         </section> 
 
-        <section id="Project"> 
-
-            <br>
-            <h2>Projects:</h2>
-            <ul><li><h4>Portfolio website: <h4> </li></ul>
-                <p>A personal onepage website to showcase your bio, skills,and contact details</p>
-            <ul><li><h4>Medium Clone:</h4></li></ul>
-            <p>A simple blog layout that looks like Medium, built only with HTML and CSS.</p>
-            <ul><li><h4>Birthday Card:</h4></li></ul>
-            <p>A creative greeting card webpage designed with HTMI. structure and CSS styling.</p>
-            <ul><li><h4>User Form:</h4></li></ul>
-                <p>A form webpage with fields like name ,email,and message for practising form handling </p> 
-            <br> 
-        </section>
-        
         <hr>
-            <section id="skill" >
-                <h2 >My skills:</h2>
+        <h2 class="center">My skills:</h2> 
+            <section id="skill"  > 
                 <br><br>
                 <table>
                 <tr class="row1">
@@ -72,10 +58,21 @@
             </section>
         
         <hr>
+        <section id="Project" class="project"> 
+
+            <br>
+            <h2>Projects:</h2>
+            <ul><li><h4>Portfolio website: <h4> </li></ul>
+                <p>A personal onepage website to showcase your bio, skills,and contact details</p>
+            <ul><li><h4>User Form:</h4></li></ul>
+                <p>A form webpage with fields like name ,email,and message for practising form handling </p> 
+            <br> 
+        </section> 
+        
     </main>
     <hr>
-    <section  id="Contact">
-        <h2>Contact Me:</h2>
+    <h2 class="center">Contact Me:</h2> 
+    <section  id="Contact"> 
        <form>
         <table class="contact-form">
             <tr>
@@ -99,9 +96,13 @@
     
 
     
-   <footer>
-  <marquee  direction="right" class="marquee"><h2>Thanks for Visiting</h2> </marquee> 
-  <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"  class="button" >Back to Top</button>
-  </footer>
+    <marquee  direction="right" class="marquee"><h2>Thanks for Visiting</h2> </marquee> 
+    <footer id="footer" >
+    <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"  class="button">Back to Top</button> 
+   </footer>  
+
+
+
+    
 </body>
-</html> 
+</html>
